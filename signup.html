@@ -35,19 +35,29 @@
         <section id="login">
             <div id="box">
                 <form>
-                    <!-- <label for="username">Username:</label> -->
-                    <input type="text" id="username" name="username" placeholder="username">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
                     <br>
-                    <!-- <label for="password">Password:</label> -->
-                    <input type="password" id="password" name="password" placeholder="password">
+                    <label for="password">Email:</label>
+                    <input type="text" id="email" name="email">
                     <br>
-                    <!-- <label for="email">Email:</label> -->
-                    <input type="text" id="email" name="email" placeholder="email">
+                    <label for="email">Password:</label>
+                    <input type="password" id="password" name="password">
                     <br>
                     <div id="lower">
-                        <input type="checkbox"><label for="checkbox">I accept to Maintainance Tracker terms</label>
-                        <input type="radio" name="sign up" value="signUp as Administrator">signUp as Administrator<br/>
-                        <input type="radio" name="sign up" value="signUp as User">signUp as User
+                        <input type="checkbox"><label for="checkbox">Already have an account?</label>
+                        <fieldset>
+                            <legend>select log in as</legend>
+                            <div>
+                                <a href="signupadmin.html"><input type="radio" id="administrator" name="click" checked/>
+                                    <label for="administrator"></label>Administrator</a>
+                                <a href="signupuser.html"><input type="radio" id="user" name="click" />
+                                    <label for="User"></label>User</a>
+
+
+                            </div>
+
+                        </fieldset>
 
                     </div>
                 </form>
