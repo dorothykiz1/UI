@@ -7,7 +7,7 @@
     <meta name="description" content="easy maintainance and repair">
     <meta name="keywords " content="easy and fast maintainance responses">
     <meta name="author" content="Dorothy Kabarozi">
-    <title>Maintainance Tracker App | user only</title>
+    <title>Maintainance Tracker App | User dashboard</title>
 </head>
 <link rel="stylesheet" href="./index.css/index.css">
 
@@ -30,12 +30,41 @@
             </nav>
         </div>
     </header>
-    <div class="sign-up-form">
-        <h1>please make your requests here</h1>
+    <div class="requests-form">
+        <section id="requests">
+            <div id="container">
+                <form>
+                    <label for="new">new request:</label>
+                    <input type="text" id="new" name="new">
+                    <br>
+                    <label for="new">Second request made:</label>
+                    <input type="text" id="second" name="second">
+                    <br>
+                    <label for="new"> First request made:</label>
+                    <input type="text" id="first" name="first">
+                    <br>
+
+
+                </form>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Requests made</button>
+                <div class="dropdown-content">
+                    <a href="#new">new </a>
+                    <a href="#second">second </a>
+
+                    <a href="#first">first </a>
+
+
+                </div>
+
+            </div>
+
+
     </div>
 
     <footer>
-        <p>MaintainanceTrackerApp copyright &copy; 2018</p>
+        <p>Maintainance copyright &copy; 2018 Tracker,inc</p>
     </footer>
 
 </body>

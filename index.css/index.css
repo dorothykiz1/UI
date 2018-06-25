@@ -88,10 +88,12 @@
  /*showcase*/
  
  #showcase {
-     min-height: 400px;
+     min-height: 600px;
      text-align: center;
-     background-image: url("\images\barrett-ward-684178-unsplash.jpg");
-     color: rgb(10, 10, 10);
+     background-image: url("../images/barrett-ward-684178-unsplash.jpg");
+     background-repeat: no-repeat;
+     background-size: 1500px 950px;
+     color: rgb(56, 55, 55);
  }
  
  #showcase h1 {
@@ -102,28 +104,20 @@
  
  #showcase p {
      font-size: 20px;
- }
- /*newsletter*/
- 
- #newsletter {
-     color: white;
-     padding: 15px;
-     background: rgb(90, 102, 73);
+     text-align: center;
  }
  
- #newsletter h1 {
-     float: left;
+ .dropbtn {
+     background-color: rgb(238, 44, 30);
+     color: bisque;
+     padding: 10px;
+     font-size: 14px;
+     border: none;
  }
  
- #newsletter form {
-     float: right;
-     margin-top: 15px;
- }
- 
- #newsletter input[type="email"] {
-     padding: 4px;
-     height: 25px;
-     width: 250px;
+ .dropdown {
+     position: relative;
+     display: inline-block;
  }
  
  login #box {
@@ -215,12 +209,17 @@
      padding: 3px 6px;
  }
  
+ #another {
+     background-color: maroon;
+     padding: 3px 16px;
+ }
+ 
  footer {
      position: absolute;
      bottom: 0;
      width: 100%;
-     padding: 10px;
-     margin-top: 20px;
+     padding: -10px;
+     margin-top: 10px;
      color: white;
      background-color: red;
      text-align: center;
