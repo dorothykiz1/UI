@@ -7,7 +7,7 @@
     <meta name="description" content="easy maintainance and repair">
     <meta name="keywords " content="easy and fast maintainance responses">
     <meta name="author" content="Dorothy Kabarozi">
-    <title>Maintainance Tracker App | Admin dashboard</title>
+    <title>Maintainance Tracker App | filter requests</title>
 </head>
 <link rel="stylesheet" href="./index.css/index.css">
 
@@ -38,8 +38,8 @@
         </header>
         <!-- end header -->
 
-
-        <h2>Available requests</h2>
+        <!-- table1 -->
+        <h2>Approved Requests</h2>
         <table id="requests">
             <tr>
                 <th>Request ID</th>
@@ -48,10 +48,6 @@
                 <th>Details</th>
                 <th>Date</th>
                 <th>Approve</th>
-                <th>Reject</th>
-                <th>Resolved</th>
-
-
             </tr>
             <tr>
                 <td>1</td>
@@ -62,17 +58,6 @@
                 <td>
                     <input type="radio" name=" mark" value="approved" checked="checked">
                 </td>
-                <td>
-                    <input type="radio" name="mark" value="rejected">
-                </td>
-                <td>
-                    <input type="checkbox">
-                </td>
-
-
-
-
-
             </tr>
             <tr>
                 <td>2</td>
@@ -82,12 +67,6 @@
                 <td>25/09/18</td>
                 <td>
                     <input type="radio" name=" mark" value="approved" checked="checked">
-                </td>
-                <td>
-                    <input type="radio" name="mark" value="rejected">
-                </td>
-                <td>
-                    <input type="checkbox">
                 </td>
 
 
@@ -103,9 +82,108 @@
                 <td>
                     <input type="radio" name=" mark" value="approved" checked="checked">
                 </td>
+
+
+            </tr>
+
+
+
+        </table>
+        <h2>Rejected requests</h2>
+        <table id="requests">
+            <tr>
+                <th>Request ID</th>
+                <th>Username</th>
+                <th>Request Type</th>
+                <th>Details</th>
+                <th>Date</th>
+                <th>Reject</th>
+
+
+
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Dorothy Kabarozi</td>
+                <td>Configuration</td>
+                <td>My wifi keeps disconnecting</td>
+                <td>25/06/18</td>
+
                 <td>
                     <input type="radio" name="mark" value="rejected">
                 </td>
+
+
+
+
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dorothy Kabarozi</td>
+                <td>Hardware</td>
+                <td>My screen broke and has numerous lines</td>
+                <td>25/06/18</td>
+                <td>
+                    <input type="radio" name="mark" value="rejected">
+                </td>
+
+            </tr>
+
+
+
+        </table>
+        <h2>Resolved requests</h2>
+        <table id="requests">
+            <tr>
+                <th>Request ID</th>
+                <th>Username</th>
+                <th>Request Type</th>
+                <th>Details</th>
+                <th>Date</th>
+
+                <th>Resolved</th>
+
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Dorothy Kabarozi</td>
+                <td>Interface</td>
+                <td>My computer is too slow .It takes avery long time while loading</td>
+                <td>25/07/18</td>
+                <td>
+                    <input type="checkbox">
+                </td>
+
+
+
+
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dorothy Kabarozi</td>
+                <td>Hardware</td>
+                <td>My machine keeps restarting</td>
+                <td>25/09/18</td>
+
+                <td>
+                    <input type="checkbox">
+                </td>
+
+
+
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Dorothy Kabarozi</td>
+                <td>Configuration</td>
+                <td>My wifi keeps disconnecting</td>
+                <td>25/06/18</td>
+
                 <td>
                     <input type="checkbox">
                 </td>
@@ -121,12 +199,6 @@
                 <td>My screen broke and has numerous lines</td>
                 <td>25/06/18</td>
                 <td>
-                    <input type="radio" name=" mark" value="approved" checked="checked">
-                </td>
-                <td>
-                    <input type="radio" name="mark" value="rejected">
-                </td>
-                <td>
                     <input type="checkbox">
                 </td>
 
@@ -137,10 +209,7 @@
 
 
         </table>
-        <div id="filter">
-            <a href="filter.html">filter requests</a>
 
-        </div>
 
 
         <!-- footer -->
