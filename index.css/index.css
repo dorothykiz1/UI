@@ -219,15 +219,50 @@
      widows: 20px;
  }
  
+ fieldset {
+     margin-left: 80px;
+     margin-top: 50px;
+     width: 60%;
+     height: 60%;
+ }
+ 
  legend {
-     background-color: rgb(112, 41, 41);
-     color: #aaa;
+     background-color: rgb(190, 24, 24);
+     color: rgb(238, 236, 236);
      padding: 3px 6px;
  }
  
  #another {
      background-color: maroon;
      padding: 3px 16px;
+ }
+ 
+ #requests {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     border-collapse: separate;
+     width: 100%;
+ }
+ 
+ #requests td,
+ #requests th {
+     border: 1px solid #ddd;
+     padding: 9px;
+ }
+ 
+ #requests tr:nth-child(even) {
+     background-color: rgb(170, 204, 204);
+ }
+ 
+ #requests tr:hover {
+     background-color: rgb(223, 197, 210);
+ }
+ 
+ #requests th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: rgb(44, 172, 123);
+     color: white;
  }
  
  footer {
