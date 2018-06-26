@@ -7,68 +7,96 @@
     <meta name="description" content="easy maintainance and repair">
     <meta name="keywords " content="easy and fast maintainance responses">
     <meta name="author" content="Dorothy Kabarozi">
-    <title>Maintainance Tracker App | Sign Up</title>
+    <title>Maintainance Tracker App | Sign Up or Log in</title>
 </head>
 <link rel="stylesheet" href="./index.css/index.css">
 
 <body>
-    <header>
-        <div class="container">
-            <div id="logo">
-                <h1><span class="highlight">Maintainance</span> Tracker</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a></li>
-                    <li class="current">
-                        <a href="signup.html">Sign Up</a></li>
-                    <li>
-                        <a href="login.html">Log In</a></li>
+    <div class="main-container">
+        <!-- header -->
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1>
+                        <span class="highlight">Maintainance</span> Tracker</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="current">
+                            <a href="signup.html">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Log In</a>
+                        </li>
 
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="sign-up-form">
-        <h1>Sign up for Maintainance Tracker</h1>
-        <section id="login">
-            <div id="box">
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- start class sign-up-form -->
+        <div class="sign-up-form">
+            <h1>Create an account</h1>
+            <section id="signup">
+
                 <form>
+
                     <label for="username">Username:</label>
+
                     <input type="text" id="username" name="username">
                     <br>
+
                     <label for="email">Email:</label>
+
                     <input type="text" id="email" name="email">
+
                     <br>
                     <label for="password">Password:</label>
+
                     <input type="password" id="password" name="password">
                     <br>
+                    <!-- #lower -->
                     <div id="lower">
-
-                        <fieldset>
-                            <legend>select sign in as</legend>
-                            <div>
-                                <a href="signupadmin.html"><input type="radio" id="administrator" name="click" checked/>
-                                    <label for="administrator"></label>Administrator</a>
-                                <a href="signupuser.html"><input type="radio" id="user" name="click" />
-                                    <label for="User"></label>User</a>
-
-
-                            </div>
-
-                        </fieldset>
-
+                        <input type="submit" name="signup" value="signup">
+                        <p>Already have an account?
+                            <a href="login.html" class="button">
+                                login
+                            </a>
+                        </p>
                     </div>
+
+
+
+
                 </form>
-            </div>
-        </section>
+            </section>
+        </div>
+        <!-- end class sign-up-form -->
+        <!-- #new -->
+        <div id="new">
+            <h2>signup as:</h2>
+            <p>
+                <a href="signupadmin.html">
+                    <input type="radio" name="new" value="Administrator" checked="checked" />Administrator</a>
+            </p>
+            <p>
+                <a href="signupuser.html">
+                    <input type="radio" name="new" value="User" />User</a>
+            </p>
+
+        </div>
+
+
+        <!-- footer -->
+        <footer>
+            <p>Maintainance copyright &copy; 2018 Tracker,inc</p>
+        </footer>
+        <!-- /maincontainer -->
     </div>
-
-    <footer>
-        <p>Maintainance copyright &copy; 2018 Tracker,inc</p>
-    </footer>
-
 </body>
 
 </html>

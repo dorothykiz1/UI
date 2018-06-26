@@ -32,6 +32,10 @@
      text-align: center;
  }
  
+ .account-form {
+     text-align: center;
+ }
+ 
  .button1 {
      height: 25px;
      background: red;
@@ -120,7 +124,8 @@
      display: inline-block;
  }
  
- login #box {
+ signup #box {
+     text-align: left;
      position: absolute;
      width: 340px;
      height: 400px;
@@ -143,12 +148,14 @@
  label {
      color: #555;
      display: inline-block;
-     margin-left: 18px;
+     margin-left: 20px;
      padding-top: 10px;
      font-size: 14px;
+     width: 210px;
+     text-align: right;
  }
  
- p a {
+ .container p a {
      font-size: 11px;
      color: #aaa;
      float: right;
@@ -184,6 +191,10 @@
      margin-top: 20px;
  }
  
+ #lower p a {
+     text-align: center;
+ }
+ 
  input[type=checkbox] {
      margin-left: 20px;
      margin-top: 5px;
@@ -201,6 +212,11 @@
      background-color: rgb(151, 151, 151);
      width: 80px;
      height: 30px;
+ }
+ 
+ #new {
+     text-align: center;
+     widows: 20px;
  }
  
  legend {
