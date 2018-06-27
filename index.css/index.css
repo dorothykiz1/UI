@@ -14,6 +14,7 @@
      display: block;
      position: relative;
      padding-bottom: 100px;
+     background: rgb(202, 200, 200);
  }
  
  ul {
@@ -92,12 +93,11 @@
  /*showcase*/
  
  #showcase {
-     min-height: 600px;
+     min-height: 1000px;
      text-align: center;
      background-image: url("../images/barrett-ward-684178-unsplash.jpg");
      background-repeat: no-repeat;
-     background-size: 1500px 950px;
-     color: rgb(56, 55, 55);
+     background-size: 100%;
  }
  
  #showcase h1 {
@@ -164,7 +164,7 @@
  }
  
  p a:hover {
-     color: rgb(111, 202, 149);
+     color: rgb(165, 32, 32);
  }
  
  input {
