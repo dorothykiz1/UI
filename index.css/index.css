@@ -14,9 +14,6 @@
      position: relative;
      padding-bottom: 100px;
      background: rgb(202, 200, 200);
-     background-image: url("../images/barrett-ward-684178-unsplash.jpg");
-     background-repeat: no-repeat;
-     background-size: 100%;
  }
  
  ul {
@@ -97,6 +94,9 @@
  #showcase {
      min-height: 1000px;
      text-align: center;
+     background-image: url("../images/barrett-ward-684178-unsplash.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
  }
  
  #showcase h1 {
